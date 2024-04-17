@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokedex {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.pokedex-left {
+  width: 100%;
+  height: 100%;
+}
+
+.pokedex-right {
+  width: 100%;
+  height: 100%;
+}
+
+.pokedex-left-top {
+  height: 25%;
+  width: 100%;
+  background: red;
+  border: 3px solid black;
+  clip-path: polygon(
+    0% 0%,
+    50% 0%,
+    100% 0%,
+    100% 60%,
+    70% 60%,
+    50% 100%,
+    0% 100%
+  );
+}
+
+.pokedex-left-main {
+  height: 75%;
+  width: 100%;
+  background: red;
+  border: 3px solid black;
+}
+
+.pokedex-middle {
+  height: 100%;
+  width: 10%;
+}
+
+.pokedex-empty-spine {
+  height: 15%;
+}
+
+.pokedex-spine {
+  height: 85%;
+  width: 100%;
+  background: red;
+  border: 3px solid black;
+}
+
+.pokedex-empty-right {
+  height: 15%;
+}
+
+.pokedex-right-top {
+  height: 10%;
+  width: 100%;
+  background: red;
+  border: 3px solid black;
+  clip-path: polygon(0% 0%, 30% 0%, 50% 100%, 0% 100%);
+}
+
+.pokedex-right-main {
+  height: 75%;
+  width: 100%;
+  background: red;
+  border: 3px solid black;
+}
