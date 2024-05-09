@@ -162,6 +162,76 @@ body {
   margin: 2px;
 }
 
+.left-bottom-button-container {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+}
+
+.circle-button {
+  height: 50px;
+  width: 50px;
+  background: black;
+  border-radius: 50%;
+}
+
+/* .screen-and-button-container {
+
+} */
+
+.button-container {
+  display: flex;
+}
+
+.button-red {
+  height: 20px;
+  width: 80px;
+  background: red;
+  border-radius: 10%;
+}
+
+.button-blue {
+  height: 20px;
+  width: 80px;
+  background: blue;
+  border-radius: 10%;
+}
+
+.bottom-screen {
+  height: 50px;
+  width: 160px;
+  background: green;
+}
+
+.d-pad {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100px;
+  width: 100px; */
+  /* background: black; */
+}
+
+.d-pad-top {
+  height: 50px;
+  width: 30px;
+  background: black;
+}
+
+.d-pad-middle {
+  height: 30px;
+  width: 130px;
+  background: black;
+}
+
+.d-pad-bottom {
+  height: 50px;
+  width: 30px;
+  background: black;
+}
+
 .pokedex-middle {
   height: 100%;
   width: 10%;
@@ -195,4 +265,78 @@ body {
   width: 100%;
   background: red;
   /*border: 3px solid black;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-screen {
+  height: 150px;
+  width: 95%;
+  background: green;
+}
+
+.blue-buttons {
+  height: 80px;
+  width: 95%;
+  background: blue;
+  margin: 10px;
+}
+
+.small-button-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-small-red-button-container {
+  display: flex;
+}
+
+.right-red-button {
+  height: 20px;
+  width: 20px;
+  background: darkred;
+}
+
+.right-black-button-container {
+  display: flex;
+}
+
+.right-black-button {
+  height: 20px;
+  width: 80px;
+  background: black;
+}
+
+.white-orange-button-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.white-buttons {
+  height: 40px;
+  width: 80px;
+  background: white;
+}
+
+.right-yellow-light {
+  height: 20px;
+  width: 20px;
+  background: greenyellow;
+}
+
+.right-bottom-screens {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-bottom-screen {
+  height: 40px;
+  width: 40%;
+  background: green;
 }
