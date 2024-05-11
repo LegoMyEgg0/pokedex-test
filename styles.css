@@ -61,7 +61,8 @@ body {
   height: 80px;
   width: 80px;
   margin: 10px;
-  background: blue;
+  background-image: radial-gradient(circle at top left, white, blue 50px);
+  /* background-size: 80px 80px; */
   border: solid 10px white;
   border-radius: 50%;
 }
@@ -74,7 +75,7 @@ body {
 .red-circle {
   height: 20px;
   width: 20px;
-  background: blue;
+  background-image: radial-gradient(circle at top left, white, blue 20px);
   border-radius: 50%;
   margin: 5px;
 }
@@ -82,7 +83,7 @@ body {
 .yellow-circle {
   height: 20px;
   width: 20px;
-  background: yellow;
+  background-image: radial-gradient(circle at top left, white, yellow 20px);
   border-radius: 50%;
   margin: 5px;
 }
@@ -90,7 +91,7 @@ body {
 .green-circle {
   height: 20px;
   width: 20px;
-  background: green;
+  background-image: radial-gradient(circle at top left, white, green 20px);
   border-radius: 50%;
   margin: 5px;
 }
@@ -130,7 +131,7 @@ body {
 .red-bezel-light {
   height: 20px;
   width: 20px;
-  background: red;
+  background-image: radial-gradient(circle at top left, white, red 20px);
   margin: 2px 10px;
   border-radius: 50%;
 }
@@ -151,7 +152,7 @@ body {
 .bezel-bottom-light {
   height: 20px;
   width: 20px;
-  background: red;
+  background-image: radial-gradient(circle at top left, white, red 20px);
   border-radius: 50%;
 }
 
@@ -188,20 +189,21 @@ body {
   height: 20px;
   width: 80px;
   background: red;
-  border-radius: 10%;
+  border-radius: 20px;
 }
 
 .button-blue {
   height: 20px;
   width: 80px;
   background: blue;
-  border-radius: 10%;
+  border-radius: 20px;
 }
 
 .bottom-screen {
-  height: 50px;
+  height: 80px;
   width: 160px;
   background: green;
+  border-radius: 10px;
 }
 
 .d-pad {
@@ -275,6 +277,7 @@ body {
   height: 150px;
   width: 95%;
   background: green;
+  border-radius: 10px;
 }
 
 .blue-buttons {
@@ -282,6 +285,7 @@ body {
   width: 95%;
   background: blue;
   margin: 10px;
+  border-radius: 10px;
 }
 
 .small-button-container {
@@ -297,7 +301,8 @@ body {
 .right-red-button {
   height: 20px;
   width: 20px;
-  background: darkred;
+  background-image: radial-gradient(circle at top left, white, red 20px);
+  border-radius: 50%;
 }
 
 .right-black-button-container {
@@ -308,6 +313,7 @@ body {
   height: 20px;
   width: 80px;
   background: black;
+  border-radius: 20px;
 }
 
 .white-orange-button-container {
@@ -321,12 +327,14 @@ body {
   height: 40px;
   width: 80px;
   background: white;
+  border-radius: 3px;
 }
 
 .right-yellow-light {
   height: 20px;
   width: 20px;
-  background: greenyellow;
+  background-image: radial-gradient(circle at top left, white, yellow 20px);
+  border-radius: 50%;
 }
 
 .right-bottom-screens {
@@ -339,4 +347,5 @@ body {
   height: 40px;
   width: 40%;
   background: green;
+  border-radius: 10px;
 }
